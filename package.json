@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "devDependencies": {
+    "jspm": "0.17.0-beta.13"
+  },
+  "jspm": {
+    "directories": {
+      "main": "my-app.js",
+      "lib": "src"
+    },
+    "dependencies": {
+      "css": "github:systemjs/plugin-css@^0.1.21",
+      "document-register-element": "npm:document-register-element@0.3.0",
+      "jquery": "npm:jquery@2.2.2",
+      "underscore": "npm:underscore@1.8.3"
+    },
+    "devDependencies": {},
+    "overrides": {
+      "npm:jquery@2.2.2": {
+        "format": "amd"
+      }
+    }
+  }
+}
